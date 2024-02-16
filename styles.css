@@ -100,9 +100,9 @@ body, html {
 .ion-concentration-outer {
   position: absolute;
   top: 45%;  /* Adjust as necessary */
-  left: 15%;
+  left: 11%;
   transform: translateX(-50%);
-  font-size: 1.2vw;   /* Adjust font size as necessary */
+  font-size: 1.8vw;   /* Adjust font size as necessary */
   background-color: rgba(255, 255, 255, 0.7);  /* Semi-transparent background for readability */
   padding: 0.1vw 0.2vw;
   border-radius: 5px;
@@ -114,7 +114,7 @@ body, html {
   bottom: 5%;  /* Adjust as necessary */
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.2vw;   /* Adjust font size as necessary */
+  font-size: 1.8vw;   /* Adjust font size as necessary */
   background-color: rgba(255, 255, 255, 0.7);  /* Semi-transparent background for readability */
   padding: 0.1vw 0.5vw;
   border-radius: 5px;
@@ -124,18 +124,18 @@ body, html {
 .button-container {
   display: flex;
   flex-direction: column; /* Stacks the groups vertically */
-  gap: 15px; /* Provides space between the button groups */
-  margin-top: 20px; /* Space above the button container */
+  margin-top: 1vw; /* Space above the button container */
   width: 50vw;
   margin: 0 auto;
-  padding-left: 2vw;
+  padding-left: 5vw;
   align-items: center;
 }
 
 .chemical-gradient-buttons, .electrical-gradient-buttons, .options-buttons {
   display: flex;
   flex-direction: row; /* Changed to row */
-  gap: 10px; 
+  padding-bottom: 3vw;
+  gap: 1vw; 
   align-items: center; 
   justify-content: center; /* Ensure items are centered horizontally */
 }
@@ -145,11 +145,11 @@ body, html {
   align-items: center; /* Vertical centering */
   justify-content: center; /* Horizontal centering */
   padding: 1vw 1vw;               /* Increase padding for a more spacious look */
-  width: 5.5vw;
+  width: 6.2vw;
   height: 5vw;
-  font-size: 0.8vw;                /* Slightly larger font */
+  font-size: 1vw;                /* Slightly larger font */
   border: none;                    /* Remove any border */
-  border-radius: 25px;             /* Fully rounded edges */
+  border-radius: 2vw;             /* Fully rounded edges */
   background: linear-gradient(135deg, #62a8ea, #845ef7);  /* Gradient background */
   color: white;                    /* White text */
   cursor: pointer;                 /* Hand cursor on hover */
@@ -194,14 +194,14 @@ body, html {
   align-items: centre;
   padding: 1vw;
   position: fixed;  /* Keeps the instruction box in a fixed position */
-  bottom: 10%;       /* Margin from the bottom of the viewport */
+  bottom: 5%;       /* Margin from the bottom of the viewport */
   left: 2%;         /* Margin from the left of the viewport */
   right: 2%;        /* Ensures the box does not stretch across the entire screen width */
   padding: 2%;    /* Increased padding for better text spacing */
   background-color: #ffffff;  /* Light background color for better contrast */
   color: #000000;    /* Dark text color for high contrast */
   text-align: center;  /* Centers the text */
-  font-size: 1.2vw;    /* Larger font size for easier reading */
+  font-size: 1.5vw;    /* Larger font size for easier reading */
   font-family: 'Roboto', sans-serif;  /* Maintains the Roboto font for consistency */
   z-index: 9999;    /* Ensures the instruction box is layered above other elements */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Adds a shadow for depth, improving separation from the background */
